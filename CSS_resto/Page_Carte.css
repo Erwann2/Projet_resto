@@ -1,0 +1,167 @@
+body{
+    background-color: #362c28;
+}
+
+
+.head_navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    border: #d4fcc3 ridge 1rem;
+    border-width: 100%;
+    background-color: #f3c969;
+}
+
+.head_navbar li a{
+    font-size: 2rem ;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.head_navbar li a:hover{
+    color: #362c28;
+    transition: ease-in-out 0.4s;
+}
+
+.liste_carte{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+.liste_carte li{
+    font-size: 2.2rem;
+}
+
+.div_carte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 90%;
+    height: 3.4rem;
+    border: 6px ridge #d4fcc3;
+    background-color: #f3c969;
+}
+
+.div_carte li{
+    margin-left: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.div_carte:hover{
+    transform: scale(1.03);
+    transition: ease-in-out 0.4s;
+}
+
+
+.div_global{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 6px #362c28 solid;
+    border-top: #f3c969;
+    width: 88%;
+    background-color: #fff5b2;
+}
+
+.div_entrée{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: 3px #362c28 solid;
+    width: 12rem;
+    height: 19.416rem;
+    margin: 2rem;
+    background-color: #f3c969;
+}
+
+.div_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid black;
+    width: 6rem;
+    height: 2rem;
+}
+
+.button_fleche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 6px;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: 4px outset #d4fcc3;
+    border-radius: 2rem;
+    background-color: #ffffff;
+}
+
+.button_fleche:hover{
+    cursor: pointer;
+    background-color: #362c28;
+    scale: (2);
+}
+
+.button_style{
+    display: flex;
+    height: 1rem;
+    border: 2px solid #d4fcc3;
+}
+
+.foot_navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #f3c969;
+    padding: 2rem;
+}
+
+.foot_navbar li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 1000;
+    color: #000000;
+}
+
+.logos_res{
+    width: 3rem;
+    height: 3rem;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+}
+
+.nav_panier{
+    display: flex;
+    justify-content: center;
+}
+
+#txt_panier{
+    display: flex;
+    color: #000000;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+    height: 3.4rem;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    border: 7px ridge #f3c969;
+    background-color: #d4fcc3;
+    position: relative;
+    left: 5%;
+}

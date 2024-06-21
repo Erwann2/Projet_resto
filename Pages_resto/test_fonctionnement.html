@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS_resto/test_fonct.css">
+    <title>Test JS</title>
+</head>
+<body>
+    <nav>
+        <ul class="liste_carte">
+            <div class="div_carte">
+                <li>Entrées</li>   <button class="button_fleche">▼</button>  
+            </div>
+            <div class="div_global" id="DivGlobal">
+                <div class="div_entrée"> 
+                    <img src="../Images_resto/logo_FB_vrai.png"> 
+                    <p>un très bon plat</p> <p>20€</p>
+                    <button>Ajouter</button>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <button onclick="myFunction()">Click Me</button>
+
+    <div id="myDIV">
+    This is my DIV element.
+    </div>
+    
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        var déroulement = document.getElementById("DivGlobal")
+        function Deroule(){
+            if (déroulement.style.display === "none") {
+                déroulement.style.display = "block";
+            }
+            else {
+                déroulement.style.display = "none"
+            }
+
+        }
+
+
+    </script>
+    
+</body>
+</html>

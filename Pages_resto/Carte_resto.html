@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS_resto/Page_Carte.css">
+        <title>Document</title>
+    </head>
+
+
+
+    <body>
+        <header> 
+            <nav>
+                <ul class="head_navbar">
+                    <li><a href="../index_resto.html">Acceuil</a></li>
+                    <li><a href="Carte_resto.html" id="cartemot">Carte</a></li>
+                </ul>
+            </nav>
+        </header>  <br><br><br><br>
+
+        <nav>
+            <ul class="liste_carte">
+                <div class="div_carte">
+                    <li>Entrées</li>   <button class="button_fleche">▽</button>  
+                </div>
+                <div class="div_global">
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Soupe_piment.jpg"> 
+                        <p>ENTREE 1</p> <p>3€</p>
+                        <button id="button_entr1">Ajouter</button>
+                    </div>
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Cuphead.jpg"> 
+                        <p>ENTREE 2</p> <p>2€</p>
+                        <button id="button_entr2">Ajouter</button>
+                    </div>
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Image_jojo_logo.png"> 
+                        <p>ENTREE 3</p> <p>5€</p>
+                        <button id="button_entr3">Ajouter</button>
+                    </div>
+                </div>
+
+
+                <div class="div_carte">
+                      <li>Plats</li>     <button class="button_fleche">▽</button> 
+                </div>
+                <div class="div_global">
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Saumon.jpg"> 
+                        <p>PLAT 1</p> <p>8€</p>
+                        <button id="button_plat1">Ajouter</button>
+                    </div>
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Cadeau.png"> 
+                        <p>PLAT 2</p> <p>10€</p>
+                        <button id="button_plat2">Ajouter</button>
+                    </div>
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Cadeau.png"> 
+                        <p>PLAT 3</p> <p>12€</p>
+                        <button id="button_plat3">Ajouter</button>
+                    </div>
+                </div>
+
+
+                <div class="div_carte"> 
+                     <li>Desserts</li>  <button class="button_fleche">▽</button>  
+                </div>
+                <div class="div_global">
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/fromageblanc.jpg"> 
+                        <p>DESSERT 1</p> <p>6€</p>
+                        <button id="button_dess1">Ajouter</button>
+                    </div>
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Cuphead.jpg"> 
+                        <p>DESSERT2</p> <p>4€</p>
+                        <button id="button_dess2">Ajouter</button>
+                    </div>
+                    <div class="div_entrée"> 
+                        <img src="../Images_resto/Cuphead.jpg"> 
+                        <p>DESSERT 3</p> <p>2€</p>
+                        <button id="button_dess3">Ajouter</button>
+                    </div>
+                </div>
+
+
+                <div class="div_carte"> 
+                     <li>Boissons</li>  <button class="button_fleche">▽</button>  
+                </div>
+                    <div class="div_global">
+                        <div class="div_entrée"> 
+                            <img src="../Images_resto/Image_jojo_logo.png"> 
+                            <p>un très bon plat</p> <p>20€</p>
+                            <button id="button_bois1">Ajouter</button>
+                        </div>
+                        <div class="div_entrée"> 
+                            <img src="../Images_resto/Image_jojo_logo.png"> 
+                            <p>un très bon plat</p> <p>20€</p>
+                            <button id="button_bois2">Ajouter</button>
+                        </div>
+                        <div class="div_entrée"> 
+                            <img src="../Images_resto/Image_jojo_logo.png"> 
+                            <p>un très bon plat</p> <p>20€</p>
+                            <button id="button_bois3">Ajouter</button>
+                        </div>
+                </div>
+            </ul>
+        </nav> <br><br><br><br>
+
+        <div id="txt_panier">
+            <div class="nav_panier">
+                <p >Panier de commande: <span id="total_achat"></span> ( vous avez <span id="nrb_panier"> </span> articles ) </p>
+            </div>
+        </div>
+        
+
+
+
+        <footer> <br><br><br><br>
+            <div>
+                <ul class="foot_navbar">
+                    <div> <br>
+                        <li><a href="Infos_supp.html">En savoir plus</a></li> <br><br>
+                        <li><a href="CDG.html">Conditioins d'utilisation générale</a></li> <br><br>
+                        <li><a href="Addresse_maps.html">11 Rue du Grand Ruage,<br> 59493 Villeneuve-d'Ascq</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#"><img src="../Images_resto/logo_FB_vrai.png" class="logos_res"></a></li> <br>
+                        <li><a href="#"><img src="../Images_resto/logo_Insta.png" class="logos_res"></a></li> <br>
+                        <li><a href="#"><img src="../Images_resto/logo_X2_removebg.png" class="logos_res"></a></li> <br>
+                    </div>
+                </ul>
+            </div>
+        </footer>     
+
+    </body>
+
+    <script>
+
+        const button_entr1 = document.getElementById("button_entr1");
+        const button_entr2 = document.getElementById("button_entr2");
+        const button_entr3 = document.getElementById("button_entr3");
+        var prix_entr1 = 3;
+        var prix_entr2 = 2;
+        var prix_entr3 = 5;
+
+
+        const button_plat1 = document.getElementById("button_plat1");
+        const button_plat2 = document.getElementById("button_plat2");
+        const button_plat3 = document.getElementById("button_plat3");
+        var prix_plat1 = 8;
+        var prix_plat2 = 10;
+        var prix_plat3= 12;
+        
+        const button_dess1 = document.getElementById("button_dess1");
+        const button_dess2 = document.getElementById("button_dess2");
+        const button_dess3 = document.getElementById("button_dess3");
+        var prix_dess1 = 6;
+        var prix_dess2 = 4;
+        var prix_dess3 = 2;
+
+        const button_bois1 = document.getElementById("button_bois1");
+        const button_bois2 = document.getElementById("button_bois2");
+        const button_bois3 = document.getElementById("button_bois3");
+        var prix_bois1 = 2;
+        var prix_bois2 = 7;
+        var prix_bois3 = 15;
+
+        var count = 0;
+        var total = 0;
+        const total_achat = document.getElementById("total_achat");
+        const nrb_panier = document.getElementById("nrb_panier");
+
+        button_entr1.onclick = function ADDP_entr1(){ count++; total += prix_entr1; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_entr2.onclick = function ADDP_entr2(){ count++; total += prix_entr2; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_entr3.onclick = function ADDP_entr3(){ count++; total += prix_entr3; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+
+        button_plat1.onclick = function ADDP_plat1(){ count++; total += prix_plat1; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_plat2.onclick = function ADDP_plat2(){ count++; total += prix_plat2; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_plat3.onclick = function ADDP_plat3(){ count++; total += prix_plat3; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+
+        button_dess1.onclick = function ADDP_dess1(){ count++; total += prix_dess1; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_dess2.onclick = function ADDP_dess2(){ count++; total += prix_dess2; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_dess3.onclick = function ADDP_dess3(){ count++; total += prix_dess3; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+
+        button_bois1.onclick = function ADDP_bois1(){ count++; total += prix_bois1; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_bois2.onclick = function ADDP_bois2(){ count++; total += prix_bois2; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+        button_bois3.onclick = function ADDP_bois3(){ count++; total += prix_bois3; total_achat.innerHTML = total + "€"; nrb_panier.innerHTML = count}
+
+    </script>
+
+</html>

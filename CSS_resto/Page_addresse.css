@@ -1,0 +1,82 @@
+body{
+    background-color: #362c28;
+}
+
+
+.head_navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    border: #d4fcc3 ridge 1rem;
+    border-width: 100%;
+    background-color: #f3c969;
+}
+
+.head_navbar li a{
+    font-size: 2rem ;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.head_navbar li a:hover{
+    color: #362c28;
+    transition: ease-in-out 0.4s;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #fff5b2;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin-bottom: 5px;
+    text-decoration-line: underline overline;
+    text-decoration-thickness: 0.8rem;
+    text-underline-offset: 15px;
+}
+
+p{
+    color: #f1f1f1;
+}
+
+#div_maps{
+    display: flex;
+    width: 54rem;
+    height: 24rem;
+    border: #f3c969 ridge 12px;
+    border-radius: 18px;
+    margin: 3rem;
+}
+
+
+.foot_navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #f3c969;
+    padding: 2rem;
+}
+
+.foot_navbar li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 1000;
+    color: #000000;
+}
+
+.logos_res{
+    width: 3rem;
+    height: 3rem;
+}
+
+
